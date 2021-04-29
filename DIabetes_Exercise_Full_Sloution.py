@@ -20,7 +20,7 @@ logger = keras.callbacks.TensorBoard(
 )
 
 # 2. Load Diabetes dataset Diabetes_dataset.csv
-df = pd.read_csv("C:\\Users\\oron.noah\\OneDrive - Zerto\\DeepLearining Workshop\\Diabetes_dataset_Ex\\Diabetes_dataset.csv")
+df = pd.read_csv("Diabetes_dataset.csv")
 
 # 3. Try To find Corelated   features 
 corr = df.corr()    # data frame correlation function
@@ -76,7 +76,7 @@ print('loss: %.2f' % (loss))
 print('Accuracy: %.2f' % (accuracy*100))
 
 # 12. Load date to predict
-df = pd.read_csv("C:\\Users\\oron.noah\\OneDrive - Zerto\\DeepLearining Workshop\\Diabetes_dataset_Ex\\DataToPredict.csv")
+df = pd.read_csv("DataToPredict.csv")
 
 # 13. Scale your date to predict using the same MinMaxScaler from step 7.
 scaled_X_predict = scaler.transform(df)
