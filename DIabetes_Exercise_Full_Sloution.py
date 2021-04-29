@@ -28,7 +28,7 @@ fig, ax = plt.subplots(figsize=(12, 12))
 ax.matshow(corr)   # color code the rectangles by correlation value
 plt.xticks(range(len(corr.columns)), corr.columns)  # draw x tick marks
 plt.yticks(range(len(corr.columns)), corr.columns)  # draw y tick marks
-plt.show() 
+#plt.show() 
 
 # 4. Delete  Corelated Colume 
 del df['skin']
