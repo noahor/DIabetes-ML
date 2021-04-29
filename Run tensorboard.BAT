@@ -1,0 +1,1 @@
+tensorboard --logdir C:\logs\Diabetes_dataset_Ex_logs
