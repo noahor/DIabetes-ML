@@ -1,0 +1,9 @@
+keras
+tensorflow
+flask
+gevent
+pillow
+requests
+sklearn
+matplotlib
+pandas
