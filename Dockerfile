@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM python:3.8.5
 WORKDIR /app
 COPY requirements.txt /app
 COPY DataToPredict.csv /app
