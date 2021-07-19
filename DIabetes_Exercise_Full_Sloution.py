@@ -8,6 +8,7 @@ from keras.layers import *
 from keras.models import load_model 
 from keras import optimizers
 from keras.optimizers import Adam
+import time
 
 
 # 1. Create a TensorBoard logger
@@ -90,3 +91,5 @@ print(result[0])
 
 result = model.predict_classes(scaled_X_predict)
 print(result[0])
+time.sleep(10)
+print("finish")
